@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/justfile/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
+

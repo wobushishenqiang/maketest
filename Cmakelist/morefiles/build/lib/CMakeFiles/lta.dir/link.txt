@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblta.a  CMakeFiles/lta.dir/lta.c.o
+/usr/bin/ranlib liblta.a

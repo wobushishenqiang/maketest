@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libltso.so -o libltso.so CMakeFiles/ltso.dir/ltso.c.o 

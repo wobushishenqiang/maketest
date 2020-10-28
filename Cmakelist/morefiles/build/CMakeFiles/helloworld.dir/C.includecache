@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lta.h
+
+../include/ltso.h
+
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
+ltso.h
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/src/ltso.h
+lta.h
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/src/lta.h
+

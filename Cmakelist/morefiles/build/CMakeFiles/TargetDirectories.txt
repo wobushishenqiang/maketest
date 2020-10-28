@@ -1,0 +1,7 @@
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/CMakeFiles/rebuild_cache.dir
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/CMakeFiles/edit_cache.dir
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/CMakeFiles/helloworld.dir
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/lib/CMakeFiles/edit_cache.dir
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/lib/CMakeFiles/lta.dir
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/lib/CMakeFiles/rebuild_cache.dir
+/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/lib/CMakeFiles/ltso.dir

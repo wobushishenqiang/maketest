@@ -1,0 +1,77 @@
+#autotools
+(1).为源文件编写makefie.am，每一个包含源文件的目录和子目录都有一个makefile.am。
+
+静态库的makefile.am中需要写为
+AUTOMARK_OPTIONS = foreign
+noinst_LIBRARIES=liblta.a
+liblta_a_SOURCES = lta.c
+动态库需要写为
+AUTOMARK_OPTIONS = foreign
+noinst_LTLIBRARIES=libltso.la
+libltso_la_SOURCES = ltso.c
+
+可执行文件的am需要写为(如果有多个可执行文件)
+AUTOMARK_OPTIONS = foreign
+
+noinst_PROGRAMS= test_1 test_2
+
+test_1_SOURCES = test_1.c
+test_1_LDADD = ../stalib/liblta.a
+test_1_LDADD += ../lib/libltso.la
+
+test_2_SOURCES = test_2.c
+test_2_LDADD = ../stalib/liblta.a
+test_1_LDADD += ../lib/libltso.la
+
+总目录的makefile.am
+#定义NULL时，= 后面直接换行，不要增加空格
+NULL =
+#下面这行是我在调试项目时，系统提示考虑增加的，具体用处读者自查
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+
+# 在这里列举子目录时，如果目录之间存在依赖关系时，那么一定要在这里使用先后关系体现出来(被依赖的写在前面)
+# 读者可以尝试打乱这里写好的顺序，自己跑一遍编译流程，查看编译报错
+SUBDIRS = \
+    lib \
+    stalib \
+    src \
+    $(NULL)
+
+
+(2). 运行autoscan，生成文件configure.scan。
+
+(3). 修改configure.scan，改名为configure.ac。
+注意有几个点
+
+#项目需要使用automake工具，所以增加下面这一行
+#subdir-objects：多目录编程时，必须要有该关键字
+AM_INIT_AUTOMAKE(subdir-objects)
+#AM_INIT_AUTOMAKE([-Wall -Werror foreign])使automake可用于makefile.am生成为makefile.in
+AC_CONFIG_FILES([Makefile])指出makefile.in生成为makefile
+
+如果有静态库动态库，在configure.ac下需要
+静态库AC_PROG_RANLIB
+动态库AC_PROG_LIBTOOL
+
+(4).运行autoheader，生成文件configure.h.in（现在一般改为configure.ac）。configure.in里有宏AC_CONFIG_HEADER()时用。
+
+(5).运行libtoolize，生成一些支持文件，ltmain.sh。需要用libtool生成共享库用。
+
+(6).运行aclocal，生成aclocal.m4。
+
+(7). 运行autoconf，生成configure。
+
+
+(8).运行automake，生成makefile.in，每个包含makefile.am的子目录都生成makefile.in。
+
+automake -a选项可以补齐文件config.guess，config.sub，install-sh，missing，depcomp。
+
+(9).运行./configure，生成config.status，config.h，makefile。
+
+(10).运行make，生成中间文件对象文件，库文件，最后生成可执行文件。
+
+(11).运行make install，相应的可执行文件，库文件，头文件拷贝到系统相应位置。
+
+
+
+

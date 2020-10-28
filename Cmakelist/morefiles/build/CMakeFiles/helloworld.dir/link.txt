@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/helloworld.dir/src/main.c.o  -o helloworld  -Wl,-rpath,/home/xyx/Desktop/SourceCode/maketest/Cmakelist/morefiles/build/lib lib/liblta.a lib/libltso.so 

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="morefile"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld">
+				<Option output="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/include"/>
+					<Add directory="/home/xyx/Documents/SourceCode/cpptest/network"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld/fast">
+				<Option output="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/include"/>
+					<Add directory="/home/xyx/Documents/SourceCode/cpptest/network"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lta">
+				<Option output="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/liblta.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/include"/>
+					<Add directory="/home/xyx/Documents/SourceCode/cpptest/network"/>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 lta"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lta/fast">
+				<Option output="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/liblta.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/include"/>
+					<Add directory="/home/xyx/Documents/SourceCode/cpptest/network"/>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 lta/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ltso">
+				<Option output="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/libltso.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/include"/>
+					<Add directory="/home/xyx/Documents/SourceCode/cpptest/network"/>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 ltso"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ltso/fast">
+				<Option output="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/libltso.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/include"/>
+					<Add directory="/home/xyx/Documents/SourceCode/cpptest/network"/>
+					<Add directory="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 ltso/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/lta.c">
+			<Option target="lta"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/ltso.c">
+			<Option target="ltso"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/src/main.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/maketest/Cmakelist/morefiles/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
